@@ -17,10 +17,10 @@ fun main(){
     arr.removeFirst()
     println(arr)
 
-    arr.addLast(e:10)
-    arr.addFirst(e:1)
-
-    arr.addAll(index:3, mutableListOf(1,2,3))
-    arr.clear()
+//    arr.addLast(e:10)
+//    arr.addFirst(e:1)
+//
+//    arr.addAll(index:3, mutableListOf(1,2,3))
+//    arr.clear()
 
 }
