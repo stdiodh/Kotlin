@@ -1,16 +1,12 @@
-fun main(){
+fun main() {
     var isTrue : Boolean = false
     var a : Int = 3
-
-// if문 ~ else문
 //    if (isTrue){
 //        println("참")
 //    } else {
 //        println("거짓")
 //    }
 
-
-// else if 문
 //    if (a == 10) {
 //        println(10)
 //    } else if (a == 5){
@@ -19,7 +15,7 @@ fun main(){
 //        print("5와 10 둘다 아님")
 //    }
 
-// when 문
+
     when(a) {
         10 -> {
             println(10)
@@ -35,4 +31,5 @@ fun main(){
         }
 
     }
+
 }
