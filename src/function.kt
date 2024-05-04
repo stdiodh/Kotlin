@@ -4,7 +4,7 @@ fun main() {
     println(div(3, 5))
 }
 
-fun sayHello() : Unit{
+fun sayHello() : Unit {
     println("Hello")
 }
 
