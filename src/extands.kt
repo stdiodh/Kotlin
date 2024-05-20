@@ -1,5 +1,10 @@
 fun main(){
+    val dog: Animal = Dog()
+    val cat = Cat()
 
+    if (dog is Dog){
+        println("멍멍이")
+    }
 }
 
 //코틀린은 기본적으로 닫혀있음
