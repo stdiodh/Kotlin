@@ -4,9 +4,9 @@ fun main() {
 //    var idol2 : Idol = Idol()
 //    println(idol2)
 
-//    var yujin1 : Idol = Idol("안유진", 22, "아이브") // 포지셔널 파라미터
-//    var yujin2 : Idol = Idol("안유진", 22, "아이브")
-//    println(yujin1 == yujin2) // 그냥 클래스로 하면 뒤에 해쉬코드가 달라 false를 출력
+    var yujin1 : Idol = Idol("안유진", 22, "아이브") // 포지셔널 파라미터
+    var yujin2 : Idol = Idol("안유진", 22, "아이브")
+    println(yujin1 == yujin2) // 그냥 클래스로 하면 뒤에 해쉬코드가 달라 false를 출력
 
     //named constranter는 파라미터 이름을 선언해주고 값을 넣어줌
     //그럼 순서를 바꿔도 입력가능 (그리고 이것을 많이씀)
@@ -28,7 +28,7 @@ fun main() {
 // data class는 출력을 모든 데이터 값으로 바꿔줌
 
 //kotlin은 ()안에 정보를 넣음
-data class IdolList(
+data class Idol(
     var name : String,
     var age : Int,
     private var group : String,
