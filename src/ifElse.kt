@@ -19,7 +19,12 @@ fun main(){
 //        print("5와 10 둘다 아님")
 //    }
 
-// when 문
+    //삼항 연산자
+    var i = 5
+    val result = if (i > 10) true else false
+    println(result)
+
+// when 문 자바의 select문과 비슷
     when(a) {
         10 -> {
             println(10)
