@@ -1,3 +1,5 @@
+package basic
+
 fun main (){
     var number1 : Int = 20
     var number2 : Int = 10

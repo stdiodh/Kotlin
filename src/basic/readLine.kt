@@ -1,3 +1,5 @@
+package basic
+
 fun main (){
     println("이름 : ")
     var readerToString = readLine().toString()

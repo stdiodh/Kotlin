@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     var isTrue : Boolean = false
     var a : Int = 3

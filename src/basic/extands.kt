@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     val dog: Animal = Dog()
     val cat = Cat()

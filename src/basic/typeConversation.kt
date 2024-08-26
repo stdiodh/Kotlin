@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     var i = 10
     var j = 20L

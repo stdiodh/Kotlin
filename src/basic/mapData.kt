@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
 //    mapData는 변수를 리스트화한 것
 //    mapOf는 리스트의 변수가 값이 변경이 안됨.

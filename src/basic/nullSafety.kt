@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
 //  swift의 옵셔널 변수와 비슷함
 //  값을 가질수도 안 가질수도 있는 타입

@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     //인자가 밖으로 빠질 수 있음
     myFunc(10){

@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
 //    파이썬과 다른점은 마지막 숫자까지 실행한다는 것
 //    for문

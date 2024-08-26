@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     var isRunning : Boolean = true
     println(isRunning)

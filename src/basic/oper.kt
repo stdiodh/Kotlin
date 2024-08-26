@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     var a : Int = 3
     var b : Int = if(a == 5) 8 else 3

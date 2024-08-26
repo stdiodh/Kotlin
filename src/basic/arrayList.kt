@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
 //    코드 유지보수 상으로 배열 뒤 ,를 사용하는 것이 좋음
 //    var arr = listOf(1, 2, 3, 4, 5, )

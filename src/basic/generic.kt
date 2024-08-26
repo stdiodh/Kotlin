@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     val box = Box(10)
     val box2 = Box("값")

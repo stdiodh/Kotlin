@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     val john = Person("john", 20)
 //    println(john.name)

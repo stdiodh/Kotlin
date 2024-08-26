@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     sayHello()
     println(add(3, 5))

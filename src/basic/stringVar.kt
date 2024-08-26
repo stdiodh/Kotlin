@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     var name1 : String = "빵빵이"
     var name2 : String = "Hyun"

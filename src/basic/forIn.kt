@@ -1,3 +1,5 @@
+package basic
+
 fun main(){
     var items = listOf(1,2,3,4,5)
 

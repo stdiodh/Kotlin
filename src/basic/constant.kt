@@ -1,3 +1,5 @@
+package basic
+
 const val number = 1;
 // const val는 컴파일 시간에 결정되는 상수
 
