@@ -1,3 +1,5 @@
+package scope
+
 class thisPerson(var name: String, var age: Int?=null)
 
 fun main() {
