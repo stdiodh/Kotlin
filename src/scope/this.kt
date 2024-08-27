@@ -1,14 +1,14 @@
 package scope
 
-class thisPerson(var name: String, var age: Int?=null)
+class ThisPerson(var name: String, var age: Int?=null)
 
 fun main() {
-    val person = thisPerson("smith", 28)
+    val person = ThisPerson("smith", 28)
     person.run { println("이름 : ${this.name}")
     println("나이 : ${this.name}")
     }
 
-    val park = thisPerson("Park").apply {
+    val park = ThisPerson("Park").apply {
         age = 28
     }
     park.run {
