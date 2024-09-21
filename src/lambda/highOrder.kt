@@ -4,6 +4,7 @@ fun main() {
     // 함수를 변수로 저장
     val apple = { fruit : String -> println("fruit : $fruit") }
     apple.invoke("apple")
+    apple("apple")
 
     // 함수를 파라미터로 전달
     val bucket = listOf("apple", "banana", "strawberry", "watermelon").fold("tomato")
