@@ -8,7 +8,7 @@ fun main() {
     var cnt = 0
 
     fun input(): CommandInput? {
-        val line = br.readLine()?.trim() ?: return null
+        val line = br.readLine() ?: return null
         val parts = line.split(" ")
 
         if (parts.size != 2) {
