@@ -60,9 +60,9 @@ fun main() {
     // 대기열에 추가할 추가 손님들
     val addCustomers = listOf(
         Customer("손님21", CustomerGrade.normal),
-        Customer("손님22", CustomerGrade.normal),
+        Customer("손님22", CustomerGrade.vip),
         Customer("손님23", CustomerGrade.normal),
-        Customer("손님24", CustomerGrade.vip),
+        Customer("손님24", CustomerGrade.vvip),
         Customer("손님25", CustomerGrade.normal)
     )
 
@@ -75,7 +75,7 @@ fun main() {
 
     newQueue.addAll(addCustomers)
 
-    println("\n새로운 대기열에 등록된 손님들 (우선순위 정렬):")
+    println("\n대기열 현황 (VVIP > VIP > Normal 순으로 우선순위 정렬)")
     newQueue.sort()
     newQueue.forEach {
         println("${it.name} (${it.grade})")
