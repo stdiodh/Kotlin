@@ -1,4 +1,4 @@
-class Solution {
+class 유연근무제 {
     fun solution(schedules: IntArray, timelogs: Array<IntArray>, startday: Int): Int {
         fun safeMinutes(time:Int, minutesToAdd: Int): Int {
             val hour = time / 100
@@ -39,7 +39,7 @@ class Solution {
 }
 
 fun main(){
-    val n = Solution()
+    val n = 유연근무제()
     val schedules = intArrayOf(700, 800, 1100)
     val timelogs = arrayOf(
         intArrayOf(710, 2359, 1050, 700, 650, 631, 659),
