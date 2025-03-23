@@ -75,7 +75,7 @@ fun main() {
 
     newQueue.addAll(addCustomers)
 
-    println("\n대기열 현황 (VVIP > VIP > Normal 순으로 우선순위 정렬)")
+    println("대기열 현황 (VVIP > VIP > Normal 순으로 우선순위 정렬)")
     newQueue.sort()
     newQueue.forEach {
         println("${it.name} (${it.grade})")
