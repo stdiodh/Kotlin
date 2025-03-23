@@ -1,4 +1,4 @@
-class Solution {
+class 택배상자꺼내기 {
     fun solution(n: Int, w: Int, num: Int): Int {
         val rows = (n + w - 1) / w  // 올림 계산 (층 수)
         val warehouse = Array(rows) { IntArray(w) { 0 } }
@@ -44,6 +44,6 @@ class Solution {
 }
 
 fun main() {
-    val solution = Solution()
+    val solution = 택배상자꺼내기()
     println(solution.solution(22, 6, 8))
 }
