@@ -15,3 +15,4 @@ fun main(){
     val newPerson = Person("DH", 24) //User가 생성되었습니다! 이름 : DH, 나이 : 24
     println("${newPerson.name}, ${newPerson.email}") //DH, Unknown
 }
+

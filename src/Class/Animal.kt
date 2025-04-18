@@ -14,16 +14,16 @@ package Class
 //    val cat = Cat().speak() //야옹!
 //}
 
-abstract class Animal {
-    abstract fun sound()
-}
-
-class Cat : Animal() {
-    override fun sound() {
-        println("야옹!")
-    }
-}
-
-fun main(){
-    val cat = Cat() // 야옹!
-}
+//abstract class Animal {
+//    abstract fun sound()
+//}
+//
+//class Cat : Animal() {
+//    override fun sound() {
+//        println("야옹!")
+//    }
+//}
+//
+//fun main(){
+//    val cat = Cat() // 야옹!
+//}
