@@ -102,5 +102,68 @@
 
 //fun main(){
 //    print(solution(".gitignore"))
+//fun main() {
+//    val score = intArrayOf(10, 100, 20, 150, 1, 100, 200)
+//    print(solution(3, score).contentToString())
+//
+//    val str : String = "str"
+//    val n : Int = 0
+//}
+//
+//
+//
+////}
+//
+//
+//fun solution(k: Int, score: IntArray): IntArray {
+//    val hall = mutableListOf<Int>()
+//    val answer = mutableListOf<Int>()
+//
+//    for (s in score) {
+//        hall.add(s)
+//        hall.sortDescending()
+//
+//        if (hall.size > k) {
+//            hall.removeAt(hall.lastIndex)
+//        }
+//
+//        answer.add(hall.last())
+//    }
+//
+//    return answer.toIntArray()
 //}
 
+//private var n = 1
+//fun solution(list_N: IntArray, v: Int): Int {
+//
+//    var answer = 0;
+//    for (i in 0..list_N.size-1){
+//        if(list_N[i]==v){
+//            answer++
+//        }
+//    }
+//    return answer
+//}
+
+
+
+fun main() {
+    val n: IntArray = intArrayOf(1, 4, 1, 2, 4, 2, 4, 2, 3, 4, 4)
+    val b = 2
+
+
+    val mutableList = mutableListOf<Int>(1,2,3,4,5)
+    val listOf = listOf<Int>(1,2,3,4,5)
+    val arr = IntArray(5) { 0 }
+
+//    arr.add() //?
+    arr[5] = 4
+    listOf.add(1)
+    listOf[0] = 1
+    mutableList.add(1)
+    mutableList.remove(1)
+
+
+    arr.forEach { println("arr = $it") }
+    mutableList.forEach { println("list = $it") }
+}
