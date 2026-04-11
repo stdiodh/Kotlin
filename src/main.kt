@@ -146,24 +146,24 @@
 //}
 
 
-
-fun main() {
-    val n: IntArray = intArrayOf(1, 4, 1, 2, 4, 2, 4, 2, 3, 4, 4)
-    val b = 2
-
-
-    val mutableList = mutableListOf<Int>(1,2,3,4,5)
-    val listOf = listOf<Int>(1,2,3,4,5)
-    val arr = IntArray(5) { 0 }
-
-//    arr.add() //?
-    arr[5] = 4
-    listOf.add(1)
-    listOf[0] = 1
-    mutableList.add(1)
-    mutableList.remove(1)
-
-
-    arr.forEach { println("arr = $it") }
-    mutableList.forEach { println("list = $it") }
-}
+//
+//fun main() {
+//    val n: IntArray = intArrayOf(1, 4, 1, 2, 4, 2, 4, 2, 3, 4, 4)
+//    val b = 2
+//
+//
+//    val mutableList = mutableListOf<Int>(1,2,3,4,5)
+//    val listOf = listOf<Int>(1,2,3,4,5)
+//    val arr = IntArray(5) { 0 }
+//
+////    arr.add() //?
+//    arr[5] = 4
+//    listOf.add(1)
+//    listOf[0] = 1
+//    mutableList.add(1)
+//    mutableList.remove(1)
+//
+//
+//    arr.forEach { println("arr = $it") }
+//    mutableList.forEach { println("list = $it") }
+//}
