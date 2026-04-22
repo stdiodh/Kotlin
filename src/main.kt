@@ -167,3 +167,98 @@
 //    arr.forEach { println("arr = $it") }
 //    mutableList.forEach { println("list = $it") }
 //}
+//
+//fun solution(names: Array<String>, yearning: IntArray, photos: Array<Array<String>>): IntArray {
+//    val answer = mutableListOf<Int>()
+//    val map = mutableMapOf<String, Int>()
+//    for(idx in names.indices){
+//        map[names[idx]] = yearning[idx]
+//    }
+//
+//    for(idx in photos.indices) {
+//        var tmp = 0
+//        for(jdx in photos[idx].indices) {
+//            val name = photos[idx][jdx]
+//            if(map.contains(name)) {
+//                tmp += map.getValue(name)
+//            }
+//        }
+//        answer.add(tmp)
+//    }
+//
+//    return answer.toIntArray()
+//}
+//
+//fun main() {
+//    val arrStr = arrayOf("may", "kein", "kain", "radi")
+//    val arrInt = intArrayOf(5, 10, 1, 3)
+//    val photoArr = arrayOf(arrayOf("may", "kein", "kain", "radi"), arrayOf("may", "kein", "brin", "deny"), arrayOf("kon", "kain", "may", "coni"))
+//    println(solution(arrStr, arrInt, photoArr).contentToString())
+//}
+
+
+//import kotlin.math.sqrt
+//
+//fun solution(number: Int, limit: Int, power: Int): Int {
+//    val divCnt = Array<Int>(number) { 0 }
+//
+//    for (i in 1..number) {
+//        var cnt = 0
+//
+//        for (j in 1..sqrt(i.toDouble()).toInt()) {
+//            if (i % j == 0) {
+//                cnt += if (j * j == i) {
+//                    1
+//                } else {
+//                    2
+//                }
+//            }
+//        }
+//
+//        divCnt[i - 1] = cnt
+//    }
+//
+//    for(i in divCnt.indices) {
+//        if(divCnt[i] > limit) {
+//            divCnt[i] = power
+//        }
+//    }
+//
+//    return divCnt.fold(0) { total, i -> total + i }
+//}
+//
+//fun main() {
+//    val number = 10
+//    val limit = 3
+//    val power = 2
+//    println(solution(number, limit, power))
+//}
+
+fun solution(answers: IntArray): IntArray {
+    val supo1 = intArrayOf(1, 2, 3, 4, 5)
+    val supo2 = intArrayOf(2, 1, 2, 3, 2, 4, 2, 5)
+    val supo3 = intArrayOf(3, 3, 1, 1, 2, 2, 4, 4, 5, 5)
+
+    val cnt = intArrayOf(0, 0, 0)
+
+    for (i in answers.indices) {
+        if (answers[i] == supo1[i % supo1.size]) cnt[0]++
+        if (answers[i] == supo2[i % supo2.size]) cnt[1]++
+        if (answers[i] == supo3[i % supo3.size]) cnt[2]++
+    }
+
+    val maxVal = cnt.maxOrNull()
+
+    val result = mutableListOf<Int>()
+    for (i in cnt.indices) {
+        if (cnt[i] == maxVal) {
+            result.add(i + 1)
+        }
+    }
+
+    return result.toIntArray()
+}
+
+fun main() {
+
+}
